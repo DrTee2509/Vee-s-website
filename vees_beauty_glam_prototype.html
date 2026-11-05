@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vee's Beauty & Glam | Victoria Oteng</title>
+<style>
+:root{--ink:#34251f;--muted:#806d62;--cream:#fbf7f1;--nude:#ead8c7;--champ:#c9a56b;--gold:#a87c3d;--line:#e8ddd1;--white:#fffdfa;--rose:#f3e7dd}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.55}button,input,select,textarea{font:inherit}button{cursor:pointer}.topbar{background:#382720;color:#fff5e9;text-align:center;padding:9px 16px;font-size:12px;letter-spacing:2px;text-transform:uppercase}.nav{display:flex;justify-content:space-between;align-items:center;padding:20px max(5vw,20px);gap:20px;background:var(--white);border-bottom:1px solid var(--line)}.brand{font-family:Georgia,serif;font-size:23px;letter-spacing:.4px}.brand small{display:block;font:10px Arial,sans-serif;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-top:4px}.navlinks{display:flex;gap:22px;flex-wrap:wrap}.navlinks a{color:var(--ink);text-decoration:none;font-size:13px}.hero{display:grid;grid-template-columns:1.05fr .95fr;min-height:510px;background:linear-gradient(120deg,#f5e9de,#fbf7f1 70%);align-items:center}.hero-copy{padding:70px max(5vw,24px)}.eyebrow{color:var(--gold);font-size:11px;letter-spacing:3px;text-transform:uppercase;font-weight:bold}.hero h1{font:clamp(44px,6vw,76px)/1.02 Georgia,serif;font-weight:normal;margin:18px 0}.hero h1 em{color:#a77f59;font-weight:normal}.hero p{max-width:440px;color:var(--muted);font-size:16px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{border:1px solid var(--gold);background:var(--ink);color:white;padding:13px 20px;border-radius:2px;text-decoration:none;font-size:12px;letter-spacing:.7px}.btn.secondary{background:transparent;color:var(--ink)}.hero-art{height:100%;min-height:420px;background:linear-gradient(150deg,rgba(66,40,29,.08),rgba(66,40,29,.0)),url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1300&q=85') center/cover;position:relative}.hero-art:after{content:"BEAUTY, WITH INTENTION";position:absolute;bottom:22px;right:22px;background:#fffaf2e8;padding:13px 17px;font-size:10px;letter-spacing:2px}.section{padding:70px max(5vw,22px)}.section-head{text-align:center;max-width:650px;margin:0 auto 35px}.section h2{font:clamp(30px,4vw,43px) Georgia,serif;font-weight:normal;margin:9px 0 12px}.section-head p,.muted{color:var(--muted)}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service{background:var(--white);border:1px solid var(--line);padding:26px;display:flex;flex-direction:column;min-height:210px}.service .num{font:italic 26px Georgia;color:var(--champ)}.service h3{font:24px Georgia;font-weight:normal;margin:13px 0 6px}.service p{font-size:13px;color:var(--muted);flex:1}.service .price{font-size:13px;font-weight:bold;color:var(--gold)}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}.panel{background:var(--white);border:1px solid var(--line);padding:28px}.panel h3{font:27px Georgia;font-weight:normal;margin:0 0 8px}.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:flex;flex-direction:column;gap:6px;margin:10px 0}.field.full{grid-column:1/-1}.field label{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}input,select,textarea{width:100%;border:1px solid #d9cbbd;background:#fffdfa;padding:12px;color:var(--ink);border-radius:2px}textarea{min-height:82px;resize:vertical}.form-note{font-size:12px;color:var(--muted)}.service-row{display:grid;grid-template-columns:1fr 105px 80px;gap:9px;align-items:center;margin:9px 0}.service-row label{font-size:13px}.service-row input{padding:9px}.service-row .price-input{min-width:0}.totalbox{background:#f7efe7;padding:18px;margin-top:18px}.total-line{display:flex;justify-content:space-between;gap:12px;padding:5px 0}.total-line.grand{border-top:1px solid #d9c4ad;margin-top:7px;padding-top:12px;font-weight:bold;font-size:20px}.invoice{background:#fff;border:1px solid var(--line);padding:30px;box-shadow:0 12px 35px #3827200a}.invoice-top{display:flex;justify-content:space-between;gap:12px;border-bottom:2px solid var(--champ);padding-bottom:18px}.invoice-title{font:32px Georgia;margin:0}.invoice table{width:100%;border-collapse:collapse;margin:24px 0;font-size:13px}.invoice th{text-align:left;background:#f7efe7;font-size:10px;letter-spacing:1px;text-transform:uppercase}.invoice th,.invoice td{padding:11px 8px;border-bottom:1px solid var(--line)}.invoice td:last-child,.invoice th:last-child{text-align:right}.invoice .right{text-align:right}.invoice-foot{font-size:11px;color:var(--muted);margin-top:22px}.status{display:inline-block;border:1px solid var(--champ);padding:5px 9px;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--gold)}.footer{background:#382720;color:#f7eade;padding:35px max(5vw,22px);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer small{color:#d9c3b2}.toast{display:none;padding:12px;background:#f0e7d9;border:1px solid var(--champ);margin-top:12px;font-size:13px}.toast.show{display:block}.admin-note{font-size:12px;color:var(--muted);margin-top:10px}.hidden{display:none!important}
+@media(max-width:800px){.hero{grid-template-columns:1fr}.hero-art{min-height:300px;grid-row:1}.hero-copy{padding-top:40px;padding-bottom:45px}.services{grid-template-columns:1fr 1fr}.two-col{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}.field-grid{grid-template-columns:1fr}.field.full{grid-column:auto}}
+@media(max-width:520px){.services{grid-template-columns:1fr}.section{padding-top:48px;padding-bottom:48px}.panel{padding:19px}.invoice{padding:18px}.service-row{grid-template-columns:1fr 86px 65px}.brand{font-size:20px}}
+@media print{body{background:white}.topbar,.nav,.hero,.section:not(#invoice-section),#booking-section,#services-section,.footer,.no-print{display:none!important}#invoice-section{display:block!important;padding:0!important}.invoice{border:0;box-shadow:none;padding:0}.invoice-wrap{display:block!important}.section-head{display:none}.invoice table{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="topbar">A little luxury. A lasting impression.</div>
+<nav class="nav">
+  <div class="brand">Vee’s Beauty & Glam<small>By Victoria Oteng</small></div>
+  <div class="navlinks"><a href="#services-section">Services</a><a href="#booking-section">Request a booking</a><a href="#invoice-section">Create invoice</a></div>
+</nav>
+<header class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow">Beauty • Glam • Confidence</div>
+    <h1>Your moment.<br><em>Your glow.</em></h1>
+    <p>Thoughtful beauty services designed to help you feel polished, confident and beautifully yourself — from soft glam to your most special occasions.</p>
+    <div class="actions"><a class="btn" href="#booking-section">REQUEST A BOOKING</a><a class="btn secondary" href="#services-section">EXPLORE SERVICES</a></div>
+  </div>
+  <div class="hero-art" role="img" aria-label="Beauty products and makeup artist workspace"></div>
+</header>
+<section class="section" id="services-section">
+  <div class="section-head"><div class="eyebrow">The service menu</div><h2>Beauty for every occasion</h2><p>Choose a service to start your enquiry. Prices shown are editable starter examples and should be confirmed by Victoria before publishing.</p></div>
+  <div class="services" id="service-cards"></div>
+</section>
+<section class="section" id="booking-section" style="background:#f3e8dd">
+  <div class="section-head"><div class="eyebrow">Let’s plan your look</div><h2>Request a glam session</h2><p>Share a few details about your event. This form prepares a booking enquiry; your date is not confirmed until Vee’s Beauty & Glam confirms it.</p></div>
+  <div class="two-col">
+    <form class="panel" id="booking-form">
+      <h3>Your details</h3>
+      <div class="field-grid">
+        <div class="field"><label for="clientName">Full name *</label><input id="clientName" required placeholder="Your full name"></div>
+        <div class="field"><label for="clientPhone">Phone / WhatsApp *</label><input id="clientPhone" required placeholder="+233 ..."></div>
+        <div class="field"><label for="clientEmail">Email</label><input id="clientEmail" type="email" placeholder="you@example.com"></div>
+        <div class="field"><label for="eventDate">Event date *</label><input id="eventDate" type="date" required></div>
+        <div class="field"><label for="eventType">Occasion *</label><select id="eventType" required><option value="">Choose occasion</option><option>Wedding / bridal</option><option>Birthday</option><option>Graduation</option><option>Photoshoot</option><option>Party / special event</option><option>Personal glam</option><option>Other</option></select></div>
+        <div class="field"><label for="eventLocation">Location</label><input id="eventLocation" placeholder="Area / venue"></div>
+        <div class="field full"><label for="requestedService">Service requested *</label><select id="requestedService" required></select></div>
+        <div class="field full"><label for="bookingNotes">Additional details</label><textarea id="bookingNotes" placeholder="Number of people, preferred look, travel needs…"></textarea></div>
+      </div>
+      <button class="btn" type="submit">PREPARE BOOKING ENQUIRY</button>
+      <div id="booking-message" class="toast" aria-live="polite"></div>
+      <p class="form-note">WhatsApp contact will be added when Victoria provides the business number. Until then, you can copy the enquiry text.</p>
+      <button type="button" class="btn secondary" id="copy-booking">COPY ENQUIRY TEXT</button>
+    </form>
+    <div class="panel">
+      <div class="eyebrow">A note from Vee</div><h3>Every detail, considered.</h3>
+      <p class="muted">From your first enquiry to the finishing touches, the aim is to make your glam experience feel personal, calm and special.</p>
+      <div style="margin-top:25px;border-top:1px solid var(--line);padding-top:20px"><div class="eyebrow">Before you book</div><p class="muted">Please include your event date, location and the number of people needing makeup. Travel fees, early call-out fees and group rates can be added to your quote where applicable.</p></div>
+      <div style="margin-top:25px;background:#f7efe7;padding:20px"><strong style="font-family:Georgia,serif;font-size:20px;font-weight:normal">Your look, your moment.</strong><p class="muted" style="font-size:13px;margin-bottom:0">Owner & Makeup Artist<br>Victoria Oteng</p></div>
+    </div>
+  </div>
+</section>
+<section class="section" id="invoice-section">
+  <div class="section-head"><div class="eyebrow">For the studio</div><h2>Invoice builder</h2><p>Enter client details, adjust service prices, set a deposit and generate a print-ready invoice. Use your browser’s print dialog to save as PDF.</p></div>
+  <div class="two-col">
+    <div class="panel no-print">
+      <h3>Invoice details</h3>
+      <div class="field-grid">
+        <div class="field"><label for="invClient">Client name</label><input id="invClient" placeholder="Client full name"></div>
+        <div class="field"><label for="invPhone">Client phone</label><input id="invPhone" placeholder="Client phone number"></div>
+        <div class="field"><label for="invEmail">Client email</label><input id="invEmail" placeholder="Client email"></div>
+        <div class="field"><label for="invDate">Invoice date</label><input id="invDate" type="date"></div>
+        <div class="field"><label for="invEventDate">Event date</label><input id="invEventDate" type="date"></div>
+        <div class="field"><label for="invNumber">Invoice number</label><input id="invNumber"></div>
+      </div>
+      <div style="margin-top:20px"><div class="eyebrow">Select services and edit prices (GHS)</div><div id="invoice-services"></div></div>
+      <div class="field-grid" style="margin-top:18px">
+        <div class="field"><label for="extraLabel">Extra charge description</label><input id="extraLabel" placeholder="e.g. Travel fee"></div>
+        <div class="field"><label for="extraAmount">Extra charge (GHS)</label><input id="extraAmount" type="number" min="0" step=".01" value="0"></div>
+        <div class="field"><label for="discount">Discount (GHS)</label><input id="discount" type="number" min="0" step=".01" value="0"></div>
+        <div class="field"><label for="depositPct">Deposit required (%)</label><input id="depositPct" type="number" min="0" max="100" step="5" value="50"></div>
+        <div class="field full"><label for="paymentTerms">Payment instructions / terms</label><textarea id="paymentTerms">Please confirm your booking with the agreed deposit. The date is confirmed only after acceptance and payment confirmation. Thank you for choosing Vee’s Beauty & Glam.</textarea></div>
+      </div>
+      <div class="actions"><button class="btn" id="generate-invoice" type="button">UPDATE INVOICE</button><button class="btn secondary" id="print-invoice" type="button">PRINT / SAVE PDF</button><button class="btn secondary" id="reset-invoice" type="button">RESET</button></div>
+      <p class="admin-note">Prototype note: service prices are editable in this page. They are not yet saved to a secure online owner dashboard and may reset when the page is refreshed.</p>
+    </div>
+    <div class="invoice-wrap">
+      <div class="invoice" id="invoice-preview">
+        <div class="invoice-top">
+          <div><div style="font:25px Georgia,serif">Vee’s Beauty & Glam</div><div style="font-size:11px;color:#806d62;margin-top:5px">Beauty • Makeup • Glam Sessions</div><div style="font-size:11px;color:#806d62">Proprietor: Victoria Oteng</div></div>
+          <div class="right"><div class="invoice-title">INVOICE</div><div id="preview-number" style="font-size:12px">VBG-2026-001</div><div id="preview-date" style="font-size:12px;color:#806d62"></div><div style="margin-top:8px"><span class="status">Quote / Pending</span></div></div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px;font-size:12px">
+          <div><div class="eyebrow">Bill to</div><strong id="preview-client">Prospective Client</strong><div id="preview-phone" style="color:#806d62"></div><div id="preview-email" style="color:#806d62"></div></div>
+          <div><div class="eyebrow">Event date</div><div id="preview-event-date">To be confirmed</div><div class="eyebrow" style="margin-top:10px">Currency</div>Ghana cedis (GHS)</div>
+        </div>
+        <table><thead><tr><th>Description</th><th>Qty</th><th>Unit price</th><th>Amount</th></tr></thead><tbody id="preview-items"></tbody></table>
+        <div style="max-width:300px;margin-left:auto;font-size:13px">
+          <div class="total-line"><span>Subtotal</span><span id="preview-subtotal">GHS 0.00</span></div>
+          <div class="total-line"><span>Extra charges</span><span id="preview-extra">GHS 0.00</span></div>
+          <div class="total-line"><span>Discount</span><span id="preview-discount">− GHS 0.00</span></div>
+          <div class="total-line grand"><span>Total due</span><span id="preview-total">GHS 0.00</span></div>
+          <div class="total-line"><span>Deposit required</span><span id="preview-deposit">GHS 0.00</span></div>
+          <div class="total-line"><span>Balance after deposit</span><span id="preview-balance">GHS 0.00</span></div>
+        </div>
+        <div class="invoice-foot"><strong style="color:#34251f">Payment & booking terms</strong><p id="preview-terms" style="white-space:pre-wrap">Please confirm your booking with the agreed deposit. The date is confirmed only after acceptance and payment confirmation. Thank you for choosing Vee’s Beauty & Glam.</p><div style="border-top:1px solid #e8ddd1;padding-top:12px;margin-top:18px">Thank you for choosing Vee’s Beauty & Glam. We look forward to being part of your special moment.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer"><div><div style="font:24px Georgia,serif">Vee’s Beauty & Glam</div><small>By Victoria Oteng</small></div><div><div>Beauty that feels like you.</div><small>Business contact details to be added.</small></div><small>© <span id="year"></span> Vee’s Beauty & Glam</small></footer>
+<script>
+const initialServices=[
+ {name:"Soft Glam",desc:"Fresh, polished makeup for everyday elegance.",price:250},
+ {name:"Full Glam",desc:"A statement look for parties and special occasions.",price:350},
+ {name:"Bridal Makeup",desc:"A considered bridal look for your wedding day.",price:800},
+ {name:"Birthday Glam",desc:"Your special-day look, tailored to you.",price:300},
+ {name:"Photoshoot Makeup",desc:"Camera-ready makeup for portraits and campaigns.",price:350},
+ {name:"Group Glam",desc:"Makeup for friends, bridal parties and events.",price:250},
+ {name:"Gele Styling",desc:"Finishing touches to complement your look.",price:150},
+ {name:"Travel / On-location",desc:"A location-based service fee, confirmed per booking.",price:100},
+];
+let services=initialServices.map(x=>({...x}));
+const money=n=>"GHS "+Number(n||0).toLocaleString("en-GH",{minimumFractionDigits:2,maximumFractionDigits:2});
+const $=id=>document.getElementById(id);
+function renderCards(){
+ $("service-cards").innerHTML=services.slice(0,6).map((s,i)=>`<article class="service"><div class="num">0${i+1}</div><h3>${s.name}</h3><p>${s.desc}</p><div class="price">From ${money(s.price)}</div></article>`).join("");
+ $("requestedService").innerHTML='<option value="">Choose a service</option>'+services.map(s=>`<option>${s.name}</option>`).join("");
+}
+function renderServiceInputs(){
+ $("invoice-services").innerHTML=services.map((s,i)=>`<div class="service-row"><label><input type="checkbox" class="svc-check" data-i="${i}" style="width:auto;margin-right:7px"> ${s.name}</label><input class="price-input" data-i="${i}" aria-label="${s.name} price" type="number" min="0" step=".01" value="${s.price}"><input class="qty-input" data-i="${i}" aria-label="${s.name} quantity" type="number" min="1" step="1" value="1" title="Quantity"></div>`).join("");
+ document.querySelectorAll(".price-input").forEach(el=>el.addEventListener("input",()=>{const i=+el.dataset.i;services[i].price=Math.max(0,+el.value||0);renderCards();updateInvoice()}));
+ document.querySelectorAll(".svc-check,.qty-input").forEach(el=>el.addEventListener("change",updateInvoice));
+}
+function value(id){return $(id).value}
+function dateDisplay(v){if(!v)return "To be confirmed";const d=new Date(v+"T12:00:00");return d.toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"})}
+function updateInvoice(){
+ const rows=[];let subtotal=0;
+ document.querySelectorAll(".svc-check:checked").forEach(check=>{const i=+check.dataset.i;const qty=Math.max(1,+document.querySelector(`.qty-input[data-i="${i}"]`).value||1);const price=Math.max(0,+document.querySelector(`.price-input[data-i="${i}"]`).value||0);subtotal+=qty*price;rows.push({name:services[i].name,qty,price,amount:qty*price})});
+ const extra=Math.max(0,+value("extraAmount")||0),discount=Math.max(0,+value("discount")||0),total=Math.max(0,subtotal+extra-discount),pct=Math.min(100,Math.max(0,+value("depositPct")||0)),deposit=total*pct/100;
+ if(value("extraLabel").trim()&&extra>0)rows.push({name:value("extraLabel").trim(),qty:1,price:extra,amount:extra});
+ $("preview-items").innerHTML=rows.length?rows.map(r=>`<tr><td>${escapeHtml(r.name)}</td><td>${r.qty}</td><td>${money(r.price)}</td><td>${money(r.amount)}</td></tr>`).join(""):'<tr><td colspan="4" style="text-align:center;color:#806d62">Select services to add them to this invoice.</td></tr>';
+ $("preview-number").textContent=value("invNumber")||"VBG-2026-001";
+ $("preview-date").textContent="Issued: "+dateDisplay(value("invDate"));
+ $("preview-client").textContent=value("invClient").trim()||"Prospective Client";
+ $("preview-phone").textContent=value("invPhone");
+ $("preview-email").textContent=value("invEmail");
+ $("preview-event-date").textContent=dateDisplay(value("invEventDate"));
+ $("preview-subtotal").textContent=money(subtotal);$("preview-extra").textContent=money(extra);$("preview-discount").textContent="− "+money(discount);$("preview-total").textContent=money(total);$("preview-deposit").textContent=money(deposit);$("preview-balance").textContent=money(total-deposit);$("preview-terms").textContent=value("paymentTerms");
+}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function setDefaults(){
+ const now=new Date();const local=new Date(now.getTime()-now.getTimezoneOffset()*60000).toISOString().slice(0,10);
+ $("invDate").value=local;$("invNumber").value="VBG-"+now.getFullYear()+"-001";
+ $("year").textContent=now.getFullYear();
+}
+let enquiryText="";
+$("booking-form").addEventListener("submit",e=>{e.preventDefault();buildEnquiry();$("booking-message").textContent="Your enquiry is ready below. Copy it and send it to Victoria once her business contact is available."; $("booking-message").classList.add("show");});
+function buildEnquiry(){
+ enquiryText=`BOOKING ENQUIRY — Vee’s Beauty & Glam\nName: ${value("clientName")}\nPhone: ${value("clientPhone")}\nEmail: ${value("clientEmail")||"Not provided"}\nEvent date: ${value("eventDate")}\nOccasion: ${value("eventType")}\nLocation: ${value("eventLocation")||"Not provided"}\nService: ${value("requestedService")}\nAdditional details: ${value("bookingNotes")||"None"}\n\nPlease confirm availability and provide a final quote.`;
+ return enquiryText;
+}
+$("copy-booking").addEventListener("click",async()=>{if(!$("booking-form").reportValidity())return;buildEnquiry();try{await navigator.clipboard.writeText(enquiryText);$("booking-message").textContent="Enquiry copied. You can paste it into WhatsApp or a message to Victoria.";}catch(e){$("booking-message").textContent=enquiryText;} $("booking-message").classList.add("show")});
+$("generate-invoice").addEventListener("click",updateInvoice);
+$("print-invoice").addEventListener("click",()=>{updateInvoice();window.print()});
+$("reset-invoice").addEventListener("click",()=>{document.querySelectorAll(".svc-check").forEach(x=>x.checked=false);document.querySelectorAll(".qty-input").forEach(x=>x.value=1);$("invClient").value="";$("invPhone").value="";$("invEmail").value="";$("invEventDate").value="";$("extraLabel").value="";$("extraAmount").value=0;$("discount").value=0;$("depositPct").value=50;updateInvoice()});
+["invClient","invPhone","invEmail","invDate","invEventDate","invNumber","extraLabel","extraAmount","discount","depositPct","paymentTerms"].forEach(id=>$(id).addEventListener("input",updateInvoice));
+renderCards();renderServiceInputs();setDefaults();updateInvoice();
+</script>
+</body>
+</html>
